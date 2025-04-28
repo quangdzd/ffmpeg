@@ -1,0 +1,10 @@
+{
+  "vnexpress.net": {
+    "article_patterns": [
+      "/[a-z\\-]+-\\d+\\.html"
+    ]
+  },
+  "edition.cnn.com": {
+    "article_patterns": []
+  }
+}

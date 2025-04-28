@@ -1,0 +1,34 @@
+# Bỏ môi trường ảo Python
+
+data/
+
+# Bỏ file âm thanh / video
+*.mp3
+*.wav
+*.mp4
+
+# Bỏ cache Python
+__pycache__/
+*.pyc
+
+# Bỏ tool ffmpeg
+bin/
+bin/ffmpeg
+bin/ffprobe
+
+# Bỏ file hệ thống
+.DS_Store
+
+# Jupyter notebook checkpoint
+.ipynb_checkpoints/
+
+# VS Code settings (nếu không dùng chung team)
+.vscode/
+
+# Log files
+*.log
+
+# Thư mục output video
+output/
+
+Miniconda3-latest-MacOSX-arm64.sh
