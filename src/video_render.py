@@ -14,7 +14,6 @@ from PIL import Image
 
 class VideoRender:
     def __init__(self):
-        print("bo may dang dc goi")
         self.ffmpeg_path = os.path.join("bin", "ffmpeg")
         self.ffprobe_path = os.path.join("bin", "ffprobe")
         self.font_path =  "/System/Library/Fonts/Supplemental/Arial.ttf"

@@ -1,4 +1,4 @@
-link_page;csv_path
-https://edition.cnn.com/;
-https://vnexpress.net/the-gioi/tu-lieu;
-https://vnexpress.net/khoa-hoc-cong-nghe;
+﻿link_page;csv_path
+https://edition.cnn.com/;edition_cnn_com_page_0.csv
+https://vnexpress.net/the-gioi/tu-lieu;vnexpress_net_page_1.csv
+https://vnexpress.net/khoa-hoc-cong-nghe;vnexpress_net_page_2.csv

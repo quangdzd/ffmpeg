@@ -18,7 +18,7 @@ def main():
     csv_paths = df["csv_path"]
 
     for i, (page, csv_path) in enumerate(zip(pages, csv_paths)):
-        if csv_path == "":
+        if pd.isna(csv_path) or csv_path == "":
             domain = urlparse(page).netloc.replace('.', '_')
             csv_path = f"{domain}_page_{i}.csv"
             # Cập nhật lại vào DataFrame
@@ -28,7 +28,6 @@ def main():
         links = get_new_links(page, csv_path)
         print(links)
 
-    # Ghi lại file sites.csv sau khi đã cập nhật
     df.to_csv(sites, sep=';', index=False, encoding='utf-8-sig')
 
 

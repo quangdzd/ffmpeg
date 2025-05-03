@@ -9,6 +9,7 @@ import trafilatura
 import multiprocessing
 
 
+
 def run_extract(queue, html_data):
     try:
         text = trafilatura.extract(html_data, include_comments=False, include_tables=False)
@@ -128,7 +129,8 @@ def get_new_links(url_page  , csv_path):
     for link in links:
         if link not in old_links:
             tmp.append(link)
-    links = tmp
+
+    links = tmp[:5]
         
 
 

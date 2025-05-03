@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog
 from src.video_render import VideoRender
 
-videoRender = VideoRender()
+
 
 class Gui:
     def __init__(self, root):
